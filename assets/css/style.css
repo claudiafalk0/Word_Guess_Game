@@ -1,0 +1,17 @@
+body{
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+    text-align: center;
+    color: pink;
+}
+h1{
+    font-size: 100px;
+}
+h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+
+p{
+    font-size: 30px;
+}
