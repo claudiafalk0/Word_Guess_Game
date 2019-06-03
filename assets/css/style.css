@@ -2,10 +2,13 @@ body{
     background-image: url(../images/background.jpg);
     background-size: cover;
     text-align: center;
-    color: pink;
+    color: darkslateblue;
+    text-shadow: 2px 1px black;
+
 }
 h1{
     font-size: 100px;
+    color:whitesmoke;
 }
 h2{
     font-family: 'Dancing Script', cursive;
@@ -14,4 +17,9 @@ h2{
 
 p{
     font-size: 30px;
+}
+
+#box{
+    background-image: linear-gradient(rgba(255, 0, 0, .5), rgba(255, 255, 0, .5) );
+    padding-bottom: 10px;
 }
