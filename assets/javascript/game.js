@@ -7,6 +7,7 @@ var lossesText = document.getElementById("losses");
 var lettersGuessedText = document.getElementById("lettersGuessed");
 var guessRemainText = document.getElementById("guessRemain");
 var randomWordText = document.getElementById("randomWord");
+var beginText = document.getElementById("Begin")
 var userGuess = [];
 var computerGuess;
 var currentWord;
@@ -41,6 +42,7 @@ document.onkeyup = function(event){
         if(userGuess.indexOf(letters_guessed) > -1){
             alert( "Please choose a different letter" );
         }else {
+            beginText.textContent = "";
             userGuess.push(letters_guessed);
             lettersGuessedText.textContent = userGuess.join();
             guessRemainText.textContent = 16 - userGuess.length;
